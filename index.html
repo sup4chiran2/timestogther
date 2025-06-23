@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Times Together</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div class="window" id="popup">
+    <h1>how long choochis been cuddling with me for🥹🥹❤️❤️❤️</h1>
+    <p>Want to see how long we've been together?</p>
+    <button onclick="startTimer()">owwwwwwwww🥹🥹🥹🥰🥰🥰</button>
+    <button onclick="maybeLater()">Maybe later🥹❤️‍🩹</button>
+  </div>
+
+
+  <div class="loading" id="loading" style="display: none;">
+    <p>Calculating our time together...</p>
+  </div>
+
+ 
+  <div id="finalMessage" style="display: none;"></div>
+
+
+  <div class="counter" id="counter" style="display: none;">
+    <h2>been official and exclusive cuddle snuggle partners for 💖💖💖 ....</h2>
+    <div id="time">
+      <div><strong id="years">0</strong> Years</div>
+      <div><strong id="months">0</strong> Months</div>
+      <div><strong id="days">0</strong> Days</div>
+      <div><strong id="hours">0</strong> Hours</div>
+      <div><strong id="minutes">0</strong> Minutes</div>
+      <div><strong id="seconds">0</strong> Seconds</div>
+    </div>      
+
+    <div id="messages"></div>
+    <button id="foreverBtn" style="display: none;" onclick="showFinalMessage()">Click for Forever</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
