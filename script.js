@@ -22,8 +22,8 @@ function startTimer() {
       setInterval(showTime, 1000);
       setTimeout(() => {
         startMessages();
-      }, 2000);
-    }, 2000); 
+      }, 4000);
+    }, 4000); 
   
   } 
   
